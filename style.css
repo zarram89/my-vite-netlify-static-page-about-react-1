@@ -51,7 +51,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 57px;
+  
 }
 
 .nav__logo {
@@ -92,7 +92,10 @@ img {
 /* Main Content */
 
 .main {
-  padding: 0 27px;
+  padding: 57px 27px 0;
+  background-image: url('./public/img/reactjs-icon.png');
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .main-title {
